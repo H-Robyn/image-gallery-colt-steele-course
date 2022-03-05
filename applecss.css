@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+#logo_container {
+  height: 55px;
+  background-color: black;
+  /* border: 2px solid red; */
+}
+
+#apple_menu {
+  position: absolute;
+  padding: 15px 0px 0px 8px;
+}
+
+#apple_logo {
+  /* position: absolute; */
+  display: block;
+  /* margin: 10px 0px 0px 690px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 30px;
+}
+
+#apple_search {
+  position: absolute;
+  float: right;
+  right: 20px;
+  top: 18px;
+  height: 20px;
+}
+
+#lists {
+  overflow: hidden;
+  background-color: rgb(219, 215, 215);
+  height: 48px;
+}
+
+#lists ul a {
+  float: left;
+  text-decoration: none;
+}
+
+#lists ul a li {
+  list-style: none;
+  margin-left: 65px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #808080;
+}
+
+#lists ul a li:hover {
+  color: #484848;
+}
